@@ -38,7 +38,7 @@ bot.on('message', async (msg) => {
     bot.sendMessage(chatId, textResponse);
 });
 
-<h1>DialogoFlow</h1>
+<h2> DialogoFlow</h2>
 // importando a biblioteca do dialogflow
 const dialogflow = require('dialogflow');
 
@@ -85,8 +85,7 @@ async function sendMessage(chatId, message) {
 // exportando a função sendMessage
 module.exports.sendMessage = sendMessage
 
-<h1>youtube.js</h1>
-
+<h2>youtube.js</h2>
 youtube.js> youtube.serch("Exercicios para biceps")callback
 const YouTube=required("youtube-node");
 const config= required("./yt=conf");

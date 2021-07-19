@@ -1,4 +1,5 @@
-h1>index.js</h1>
+<h2> index.js</h2>
+
 // importando a biblioteca de api do telegram 
 const TelegramBot = require('node-telegram-bot-api');
 
@@ -89,4 +90,17 @@ module.exports.sendMessage = sendMessage
 youtube.js> youtube.serch("Exercicios para biceps")callback
 const YouTube=required("youtube-node");
 const config= required("./yt=conf");
+const youtube=new YouTube();
+youtube.setKey(config.key);
+
+function searchVideoURL(message, queryText) {
+  return new Promise()resolve,reject)=> {
+   youtube.searche("Exercicio em casa para bíceps  ${queryText}",2,function(error,result)
+   if(errorr) {
+     console.log(JSON.stringify(result,null,2((;
+     }else{
+     }
+     {);
+     }
+     
 
